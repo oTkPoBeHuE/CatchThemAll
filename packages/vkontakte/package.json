@@ -1,0 +1,21 @@
+{
+  "name": "@catch-them-all/vkontakte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --inspect -- ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "oTkPoBeHuE",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.17.17",
+    "typescript": "^3.8.3",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "dependencies": {
+    "node-vk-bot-api": "^3.3.3",
+    "easyvk": "^2.6.0"
+  }
+}
